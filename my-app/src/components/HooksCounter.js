@@ -12,5 +12,5 @@ export default function HooksCounter(props) {
             <h3>You've clicked this totally useless counter {count} times</h3>
             <button onClick={() => setCount(count => count + 1)}>Increment Useless Counter</button>
         </div>
-    )
+    );
 }

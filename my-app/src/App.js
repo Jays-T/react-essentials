@@ -4,19 +4,14 @@ import FunctionalGreeting from './components/Schmololo.js';
 import StatefulGreeting from './components/StatefulGreeting';
 import Hatred from './components/Hatred';
 import HooksCounter from './components/HooksCounter';
+import RandomExtra from './components/RandomExtra';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
         <HooksCounter/>
-        <p> 
-          It works 
-        </p>
         <p className="App-wololo">
           <FunctionalGreeting name="&#128520;" />
           </p>
@@ -32,6 +27,7 @@ function App() {
         >
           Learn React
         </a>
+        <RandomExtra />
       </header>
     </div>
   );

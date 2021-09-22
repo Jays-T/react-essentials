@@ -11,14 +11,14 @@ export default class Hatred extends React.Component {
     setCount = () => {
         this.setState(prevState => {
             return { count: prevState.count + 1}
-        })
-    }
+        });
+    };
 
     lowerCount = () => {
         this.setState(prevState => {
             return { count: prevState.count - 1}
-        })
-    } 
+        });
+    };
 
 
     render() {
@@ -28,6 +28,6 @@ export default class Hatred extends React.Component {
             <button class="affect-count-btn" onClick={this.setCount}>&#128077;</button>
             <button class="affect-count-btn" onClick={this.lowerCount}>👎</button>
             </div>
-        )
-    }
+        );
+    };
 }
