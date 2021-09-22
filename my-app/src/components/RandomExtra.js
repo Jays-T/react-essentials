@@ -13,7 +13,7 @@ export default class RandomExtra extends React.Component {
         this.setState(prevState => {
             return { 
             display: prevState.display === `👎😠 ` ? `😀` : `👎😠 `,
-            buttonText: prevState.buttonText === `Don't click Me!` ? `Leave Angry Face Alone` : `Don't click Me!`}
+            buttonText: prevState.buttonText === `Don't click Me!` ? `Leave AngryMcAngryFace Alone` : `Don't click Me!`}
         });
     };
 
